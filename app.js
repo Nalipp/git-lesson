@@ -21,6 +21,8 @@ button.addEventListener('click', function(evt) {
   body.append(p);
 
   input.value = '';
+
+  // next we need to add a checkbox to put a line through the todo
 });
 
 
