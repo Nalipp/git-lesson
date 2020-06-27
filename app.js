@@ -1,6 +1,24 @@
 let button = document.querySelector('button');
 let body = document.querySelector('body');
 
+let companies = [
+  {
+    name: 'google', 
+    numEmployees: 200, 
+    grossRevenue: 2000000
+  }, 
+  {
+    name: 'apple', 
+    numEmployees: 400, 
+    grossRevenue: 40000
+  }, 
+  {
+    name: 'yellow', 
+    numEmployees: 150, 
+    grossRevenue: 250000
+  }, 
+]
+
 button.addEventListener('click', function(evt) {
   evt.preventDefault();
 
@@ -19,6 +37,15 @@ button.addEventListener('click', function(evt) {
 
   p.append(span);
   body.append(p);
+
+  // let ul = document.createElement('ul');
+  // let li1 = document.createElement('li');
+    
+  // let li2 = document.createElement('li');
+  // let li3 = document.createElement('li');
+
+  
+  body.append()
 
   input.value = '';
 });
