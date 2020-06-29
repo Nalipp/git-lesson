@@ -1,7 +1,7 @@
 body {
   font-family: Helvetica;
-  background: crimson;
-  color: white;
+  background: white;
+  color: black;
 }
 
 form {
@@ -10,7 +10,7 @@ form {
 }
 
 form > input {
-  border: none;
+  border: 2px solid black
   font-size: 1.4em;
   padding: 6px 10px;
   letter-spacing: 1.5px;
@@ -23,9 +23,9 @@ form > button {
   padding: 6px;
   font-size: 1em;
   letter-spacing: 1.5px;
-  color: white;
+  color:balck;
   background: none;
-  border: 2px solid white;
+  border: 2px solid balck;
   border-radius: .5em;
   margin: 1em auto;
   width: 8em;
